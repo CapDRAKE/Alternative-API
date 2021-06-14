@@ -2,9 +2,9 @@ package fr.trxyy.alternative.alternative_api;
 
 public class ApiConstants {
 	
-	public static String API_VERSION = "1.2.71";
-	public static String API_VERSION_TYPE = "RELEASE";
-	public static String AUTHOR = "Trxyy modifié par Capdrake";
+	public static String API_VERSION = "1.3";
+	public static String API_VERSION_TYPE = "BETA";
+	public static String AUTHOR = "Capdrake";
 	public static String[] HELPERS = {"Aucuns"};
 	
 	public static String getVersion() {

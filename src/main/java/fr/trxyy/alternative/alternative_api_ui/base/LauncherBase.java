@@ -114,10 +114,10 @@ public class LauncherBase {
 	private void displayCopyrights() {
 		Logger.log("========================================");
 		Logger.log("|    Thanks for using AlternativeAPI   |");
-		Logger.log("|         AlternativeAPI " + ApiConstants.getVersion() + "        |");
-		Logger.log("|           Version: " + ApiConstants.getVersionType() + "           |");
-		Logger.log("|            Author: " + ApiConstants.getAuthor() + "             |");
-		Logger.log("|           Helper(s): " + ApiConstants.getHelpers() + "         |");
+		Logger.log("|         AlternativeAPI               |");
+		Logger.log("|           Version:  1.3.0            |");
+		Logger.log("|            Author: Capdrake          |");
+		Logger.log("|           Helper(s): Aucun           |");
 		Logger.log("========================================");
 	}	
 

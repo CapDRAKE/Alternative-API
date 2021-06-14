@@ -4,7 +4,7 @@ package fr.trxyy.alternative.alternative_api;
  * @author Trxyy
  */
 public enum GameMemory {
-	DEFAULT("1G"),
+	DEFAULT("2G"),
 	RAM_2G("2G"),
 	RAM_3G("3G"),
 	RAM_4G("4G"),
