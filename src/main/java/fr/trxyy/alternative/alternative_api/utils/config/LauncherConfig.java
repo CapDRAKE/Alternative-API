@@ -44,9 +44,9 @@ public class LauncherConfig {
 			JSONObject configDetails = new JSONObject();
 			configDetails.put("username", "");
 			configDetails.put("password", "");
-			configDetails.put("allocatedram", 1.0);
+			configDetails.put("allocatedram", 2.0);
 			configDetails.put("version", "");
-			configDetails.put("useforge", false);
+			configDetails.put("useforge", true);
 			configDetails.put("usediscord", true);
 			configDetails.put("usemusic", true);
 			configDetails.put("rememberme", false);
@@ -54,6 +54,7 @@ public class LauncherConfig {
 			configDetails.put("autologin", false);
 			configDetails.put("vmarguments", "-XX:+CMSIncrementalMode");
 			configDetails.put("usevmarguments", false);
+			configDetails.put("usePremium", false);
 
 			try {
 				FileWriter fw = new FileWriter(this.launcherConfig);

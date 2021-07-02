@@ -25,7 +25,7 @@ public class ConfigVersion {
 	 * The VERSION
 	 */
 	  public String version;
-	/**
+	/**usePremium
 	 * 
 	 /* Using forge ?
 	  */
@@ -39,6 +39,10 @@ public class ConfigVersion {
 	 /* Using music ?
 	  */
 public boolean usemusic;
+
+/* Using premium ?
+ */
+public boolean usePremium;
 	 /* The game size
 	 */
 	public String gamesize;
@@ -72,6 +76,7 @@ public boolean usemusic;
 		this.usevmarguments = o.usevmarguments;
 		this.password = o.password;
 		this.rememberme = o.rememberme;
+		this.usePremium = o.usePremium;
 
 	}
 
@@ -131,6 +136,10 @@ public boolean usemusic;
 	
 	public boolean useMusic() {
 		return this.usemusic;
+	}
+	
+	public boolean usePremium() {
+		return this.usePremium;
 	}
 	
 	public boolean isRememberme() {
